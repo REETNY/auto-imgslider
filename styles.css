@@ -12,6 +12,10 @@ body{
 main{
     width: 100%;
     min-width: 100vh;
+    background: url(/imgs/BG.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .app-slider{
@@ -46,7 +50,7 @@ main{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: center top;
     border-radius: 10px;
 }
 
